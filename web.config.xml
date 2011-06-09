@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+
+<configuration>
+
+  <appSettings>
+	<add key="LOG_PATH" value="C:\temp\"/>
+  </appSettings>
+
+  <system.web>
+
+	<webServices>
+	  <soapExtensionTypes>
+		<add type ="SoapExtension.Trace.TraceExtension, SoapExtension.Trace" priority="1" group="High"/>
+	  </soapExtensionTypes>
+	</webServices>
+
+  </system.web>
+
+</configuration>

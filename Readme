@@ -1,0 +1,11 @@
+﻿ABOUT:
+
+SoapExtension for logging SOAP-messages to and from a ASP.NET Webservice (*.asmx)
+
+DESCRIPTION:
+
+Reads the SoapStream og writes the XML to disk
+
+CONFIG:
+
+See web.config.xml
